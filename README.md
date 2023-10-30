@@ -6,3 +6,5 @@ Here we have last minute revision notes of DBMS. These questions will familiariz
 
 ## 1) What is DBMS?
 A DBMS is software that manages databases, providing an interface to store, retrieve, and manipulate data efficiently and securely.
+
+## 2) update soon...
