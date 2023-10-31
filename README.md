@@ -7,4 +7,5 @@ Here we have last minute revision notes of DBMS. These questions will familiariz
 ## 1) What is DBMS?
 A DBMS is software that manages databases, providing an interface to store, retrieve, and manipulate data efficiently and securely.
 
-## 2) update soon...
+## 2) What is a Database?
+A Database is an organized, consistent, and logical collection of data that can easily be updated, accessed, and managed. Database mostly contains sets of tables or objects which consist of records and fields.
