@@ -30,4 +30,11 @@ To search the data in a file system, we have to write a specific program and run
 
 When we insert new data into the database, we require some specific constraints on the data like integer or not null, etc. The file system does not provide any system to check the constraints, whereas DBMS has the functionality to check the constraints on the data, and it allows user defined data types.
 
-  
+## 5) What is the different languages present in DBMS?
+-  DDL(Data Definition Language): It contains commands which are required to define the database. \ E.g., CREATE, ALTER, DROP, TRUNCATE, RENAME, etc.
+-  DML(Data Manipulation Language): It contains commands which are required to manipulate the data present in the database.
+  E.g., SELECT, UPDATE, INSERT, DELETE, etc.
+- DCL(Data Control Language): It contains commands which are required to deal with the user permissions and controls of the database system.
+E.g., GRANT and REVOKE.
+- TCL(Transaction Control Language): It contains commands which are required to deal with the transaction of the database.
+E.g., COMMIT, ROLLBACK, and SAVEPOINT.
