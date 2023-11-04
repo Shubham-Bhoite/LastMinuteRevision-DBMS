@@ -38,3 +38,12 @@ When we insert new data into the database, we require some specific constraints 
 E.g., GRANT and REVOKE.
 - TCL(Transaction Control Language): It contains commands which are required to deal with the transaction of the database.
 E.g., COMMIT, ROLLBACK, and SAVEPOINT.
+
+## 6) Difference between the DELETE and TRUNCATE command in a DBMS?
+-  DELETE Command:
+  1) It removes rows from a table one by one with transaction logging
+  2) It can be rolled back if required.
+
+-  TRUNCATE Command:
+  1) It removes all rows at once without transaction logging.
+  2) It can't be rolled back.
