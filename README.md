@@ -47,3 +47,12 @@ E.g., COMMIT, ROLLBACK, and SAVEPOINT.
 -  TRUNCATE Command:
   1) It removes all rows at once without transaction logging.
   2) It can't be rolled back.
+
+## 7) ACID properties in DBMS?
+![image](https://github.com/Shubham-Bhoite/LastMinuteRevision-DBMS/assets/117765637/ede675c9-9c27-4a43-b6dd-821e5b0e9900)
+
+ACID stands for Atomicity, Consistency, Isolation, and Durability in a DBMS these are those properties that ensure a safe and secure way of sharing data among multiple users.
+-  Atomicity: This property reflects the concept of either executing the whole query or executing nothing at all, which implies that if an update occurs in a database then that update should either be reflected in the whole database or should not be reflected at all.
+-  Consistency: This property ensures that the data remains consistent before and after a transaction in a database.
+-  Isolation: This property ensures that each transaction is occurring independently of the others. This implies that the state of an ongoing transaction doesn’t affect the state of another ongoing transaction.
+-  Durability: This property ensures that the data is not lost in cases of a system failure or restart and is present in the same state as it was before the system failure or restart.
