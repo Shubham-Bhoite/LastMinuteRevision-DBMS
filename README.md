@@ -56,3 +56,11 @@ ACID stands for Atomicity, Consistency, Isolation, and Durability in a DBMS thes
 -  Consistency: This property ensures that the data remains consistent before and after a transaction in a database.
 -  Isolation: This property ensures that each transaction is occurring independently of the others. This implies that the state of an ongoing transaction doesn’t affect the state of another ongoing transaction.
 -  Durability: This property ensures that the data is not lost in cases of a system failure or restart and is present in the same state as it was before the system failure or restart.
+
+## 8) What is meant by Normalization and Denormalization?
+![image](https://github.com/Shubham-Bhoite/LastMinuteRevision-DBMS/assets/117765637/51a5ef90-0c29-4576-8334-62fc0d8d823b)
+
+-  Normalization is a process of reducing redundancy by organizing the data into multiple tables. Normalization leads to better usage of disk spaces and makes it easier to maintain the integrity of the database.
+-  Denormalization is the reverse process of normalization as it combines the tables which have been normalized into a single table so that data retrieval becomes faster. JOIN operation allows us to create a denormalized form of the data by reversing the normalization.
+
+
