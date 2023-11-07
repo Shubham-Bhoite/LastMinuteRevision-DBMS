@@ -63,4 +63,17 @@ ACID stands for Atomicity, Consistency, Isolation, and Durability in a DBMS thes
 -  Normalization is a process of reducing redundancy by organizing the data into multiple tables. Normalization leads to better usage of disk spaces and makes it easier to maintain the integrity of the database.
 -  Denormalization is the reverse process of normalization as it combines the tables which have been normalized into a single table so that data retrieval becomes faster. JOIN operation allows us to create a denormalized form of the data by reversing the normalization.
 
-
+## 9) Different types of Normalization forms in a DBMS?
+- 1NF: It is known as the first normal form and is the simplest type of normalization that you can implement in a database. A table to be in its first normal form should satisfy the following conditions:
+  1) Every column must have a single value and should be atomic.
+  2) Duplicate columns from the same table should be removed.
+  3) Separate tables should be created for each group of related data and each row should be identified with a unique column.
+- 2NF: It is known as the second normal form. A table to be in its second normal form should satisfy the following conditions:
+  1) The table should be in its 1NF i.e. satisfy all the conditions of 1NF.
+  2) Every non-prime attribute of the table should be fully functionally dependent on the primary key i.e. every non-key attribute should be dependent on the primary key in such a way that if any key element is deleted then even the non_key element will be saved in the database.
+- 3NF: It is known as the third normal form. A table to be in its third normal form should satisfy the following conditions:
+  1) The table should be in its 2NF i.e. satisfy all the conditions of 2NF.
+  2) There is no transitive functional dependency of one attribute on any attribute in the same table.
+- BCNF: BCNF stands for Boyce-Codd Normal Form and is an advanced form of 3NF. It is also referred to as 3.5NF for the same reason. A table to be in its BCNF normal form should satisfy the following conditions:
+  1) The table should be in its 3NF i.e. satisfy all the conditions of 3NF.
+  2) For every functional dependency of any attribute A on B (A->B), A should be the super key of the table. It simply implies that A can’t be a non-prime attribute if B is a prime attribute.
