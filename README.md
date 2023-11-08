@@ -77,3 +77,7 @@ ACID stands for Atomicity, Consistency, Isolation, and Durability in a DBMS thes
 - BCNF: BCNF stands for Boyce-Codd Normal Form and is an advanced form of 3NF. It is also referred to as 3.5NF for the same reason. A table to be in its BCNF normal form should satisfy the following conditions:
   1) The table should be in its 3NF i.e. satisfy all the conditions of 3NF.
   2) For every functional dependency of any attribute A on B (A->B), A should be the super key of the table. It simply implies that A can’t be a non-prime attribute if B is a prime attribute.
+
+## 10) What is an Entity-Relationship Diagram (ER-Diagram)?
+An ER-Diagram is a visual representation of the relationships among entities in a database, showing how different tables are connected.
+
