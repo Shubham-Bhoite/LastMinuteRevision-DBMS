@@ -81,7 +81,7 @@ ACID stands for Atomicity, Consistency, Isolation, and Durability in a DBMS thes
 ## 10) What is an Entity-Relationship Diagram (ER-Diagram)?
 An ER-Diagram is a visual representation of the relationships among entities in a database, showing how different tables are connected.
 
-## 11)Different types of keys in a database?
+## 11) Different types of keys in a database?
 -  Primary key: The Primary key is an attribute in a table that can uniquely identify each record in a table. It is compulsory for every table.
 -  Unique Key: The unique key is very similar to the primary key except that primary keys don’t allow NULL values in the column but unique keys allow them.
 -  Foreign key: The Foreign key is a primary key from one table, which has a relationship with another table. It acts as a cross-reference between tables.
