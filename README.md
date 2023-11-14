@@ -91,3 +91,10 @@ A database lock is a mechanism to protect a shared piece of data from getting up
 -  Shared lock: Shared lock is required for reading a data item. In the shared lock, many transactions may hold a lock on the same data item. When more than one transaction is allowed to read the data items then that is known as the shared lock.
 -  Exclusive lock: When any transaction is about to perform the write operation, then the lock on the data item is an exclusive lock. Because, if we allow more than one transaction then that will lead to the inconsistency in the database.
 
+## 13) What are Views in DBMS?
+A view is a virtual table that is derived from one or more base tables or other views. It does not store any data itself but represents a tailored, pre-defined query that simplifies data retrieval. Views act as a layer of abstraction over the underlying tables, providing a more user-friendly and secure way to interact with the data.
+### Benefits of using views:
+- Data Abstraction: Views allow users to work with a simplified representation of the data, hiding unnecessary details and complexity.
+- Security: Views can be used to restrict access to certain columns or rows, providing a level of security by only showing specific data to specific users.
+- Simplified Querying: Complex queries can be encapsulated within views, making it easier for users to retrieve the desired information without writing complex SQL statements.
+- Data Independence: If the underlying schema changes, views can remain the same, and applications using the views will not be affected.
