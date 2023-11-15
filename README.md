@@ -98,3 +98,14 @@ A view is a virtual table that is derived from one or more base tables or other 
 - Security: Views can be used to restrict access to certain columns or rows, providing a level of security by only showing specific data to specific users.
 - Simplified Querying: Complex queries can be encapsulated within views, making it easier for users to retrieve the desired information without writing complex SQL statements.
 - Data Independence: If the underlying schema changes, views can remain the same, and applications using the views will not be affected.
+
+## 14) What is a Join? List its different types.
+The SQL Join clause is used to combine records (rows) from two or more tables in a SQL database based on a related column between the two.
+#### There are four different types of JOINs in SQL:
+![Uploading image.png…]()
+- INNER JOIN: Retrieves records that have matching values in both tables involved in the join. This is the widely used join for queries.
+- LEFT OUTER JOIN: Retrieves all the records/rows from the left and the matched records/rows from the right table.
+- RIGHT OUTER JOIN: Retrieves all the records/rows from the right and the matched records/rows from the left table.
+- FULL OUTER JOIN: Retrieves all the records where there is a match in either the left or right table.
+  
+
