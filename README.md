@@ -111,4 +111,7 @@ The SQL Join clause is used to combine records (rows) from two or more tables in
 ## 15) What is a Self-Join?
 A self JOIN is a case of regular join where a table is joined to itself based on some relation between its own column(s). Self-join uses the INNER JOIN or LEFT JOIN clause and a table alias is used to assign different names to the table within the query.
 
+## 16) What is a Cross-Join?
+Cross join can be defined as a cartesian product of the two tables included in the join. The table after join contains the same number of rows as in the cross-product of the number of rows in the two tables. If a WHERE clause is used in cross join then the query will work like an INNER JOIN.
+
 
