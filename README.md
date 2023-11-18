@@ -105,7 +105,8 @@ The SQL Join clause is used to combine records (rows) from two or more tables in
 ![Uploading image.png…]()
 - INNER JOIN: Retrieves records that have matching values in both tables involved in the join. This is the widely used join for queries.
 - LEFT OUTER JOIN: Retrieves all the records/rows from the left and the matched records/rows from the right table.
-- RIGHT OUTER JOIN: Retrieves all the records/rows from the right and the matched records/rows from the left table.
+- RIGHT OUTER JOIN: Retrieves all the records/rows from the ri
+- ght and the matched records/rows from the left table.
 - FULL OUTER JOIN: Retrieves all the records where there is a match in either the left or right table.
   
 ## 15) What is a Self-Join?
@@ -114,4 +115,11 @@ A self JOIN is a case of regular join where a table is joined to itself based on
 ## 16) What is a Cross-Join?
 Cross join can be defined as a cartesian product of the two tables included in the join. The table after join contains the same number of rows as in the cross-product of the number of rows in the two tables. If a WHERE clause is used in cross join then the query will work like an INNER JOIN.
 
+## 17) What is an Index? Difference between Clustered and Non-Clustered Index?
+A database index is a data structure that provides a quick lookup of data in a column or columns of a table. It enhances the speed of operations accessing data from a database table at the cost of additional writes and memory to maintain the index data structure.
+
+### Difference between Clustered and Non-Clustered Index
+-  Clustered index modifies the way records are stored in a database based on the indexed column. A non-clustered index creates a separate entity within the table which references the original table.
+-  Clustered index is used for easy and speedy retrieval of data from the database, whereas, fetching records from the non-clustered index is relatively slower.
+-  In SQL, a table can have a single clustered index whereas it can have multiple non-clustered indexes.
 
